@@ -10,7 +10,7 @@ loaderVersion="[26,)" #mandatory (26 is current forge version)
 # A list of mods - how many allowed here is determined by the individual mod loader
 [[mods]] #mandatory
 # The modid of the mod
-modId="MemeMod" #mandatory
+modId="mememod" #mandatory
 # The version number of the mod - there's a few well known ${} variables useable here or just hardcode it
 version="0.1" #mandatory
  # A display name for the mod
@@ -26,7 +26,7 @@ description='''
 Memes for Days
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
-[[dependencies.MemeMod]] #optional
+[[dependencies.mememod]] #optional
     # the modid of the dependency
     modId="forge" #mandatory
     # Does this dependency have to exist - if not, ordering below must be specified
@@ -38,9 +38,9 @@ Memes for Days
     # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 # Here's another dependency
-[[dependencies.MemeMod]]
+[[dependencies.mememod]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.14.2]"
+    versionRange="[1.14.4]"
     ordering="NONE"
     side="BOTH"
